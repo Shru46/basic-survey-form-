@@ -1,0 +1,31 @@
+#title{
+  color:white;
+  margin-top:auto;
+  text-align:center;
+}
+body{
+  background-color:rgba(27,27,50,0.8);
+  color:white;
+  font-family:"Times New Roman",Times,serif;
+}
+p{
+  color:white;
+  text-align:center;
+}
+#survey-form{
+  display:flex;
+  align:center;
+  flex-direction: column; 
+  justify-content: center;
+  max-width:500px;
+  padding: 120px;      
+}
+#survey-form input,
+#survey-form select,
+#survey-form textarea{
+  padding:10px;
+}
+textarea{
+  width:100%;
+}
+
